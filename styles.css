@@ -12,7 +12,6 @@ body {
 h1 {
     margin: 0;
     padding: 0;
-    flex: 1;
 }
 
 h2, h4 {
@@ -70,12 +69,26 @@ main {
     margin-bottom: 10px;
 }
 
+.columnLeft .profile h2 {
+    font-size: 15px;
+    text-transform: initial;
+    font-style: italic;
+    color: #8a4f8a;
+    margin: 2px 0px;
+}
+
+.columnLeft .profile h1 {
+    font-size: 18px;
+    flex: 1;
+}
+
+
 .columnLeft .profile header {
     text-align: center;
 }
 
 .columnLeft .profile .age {
-    background-color: #822fec;
+    background-color: #82057d;
     border-radius: 100%;
     padding: 7px;
 }
