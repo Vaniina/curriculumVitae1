@@ -1,6 +1,7 @@
 export const person = new Map()
     .set("firstName", "Anna")
     .set("lastName", "Vessereau")
+    .set("image", "photo-anna.jpeg")
     .set("job", "Développeuse JS FullStack")
     .set("age", "27")
     .set("address", "17 rue Ferdinand Buisson")
