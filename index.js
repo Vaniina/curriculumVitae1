@@ -14,6 +14,8 @@ person.forEach((value, key) => {
     } else if (key === "email") {
         updateText(selector, value);
         updateAttribute(selector, "href", "mailto:" + value);
+    } else if (key === "image") {
+        updateAttribute(".profile img", "src", value);
     } else {
         updateText(selector, value);
     }
